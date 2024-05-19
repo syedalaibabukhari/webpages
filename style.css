@@ -1,0 +1,329 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #a87129;
+    color: white;
+    padding: -100px 0;
+    margin-top: -10px;
+}
+
+header .top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 10px;
+    margin-left: 30px;
+}
+
+header .logo {
+    font-size: 34px;
+     font-style: italic;
+    font-weight: bold;
+}
+
+header .contact-info {
+
+    text-align: right;
+}
+
+.search-bar{
+    display: flex;
+    padding: 10px;
+    /* width: 150%; */
+    background: rgb(95, 3, 3);
+    color: #f5f5f5;
+    font-style: italic;
+    font-weight: bold;
+}
+.search{
+    margin-left: 870px;
+   width: 13%;
+   padding-top: 10px;
+   margin-top: -10px;
+   
+}
+.search input{
+    padding: 5px;
+    width: 150%;
+    border-radius: 30px;
+    
+}
+.image-container{
+background-image: url(https://t3.ftcdn.net/jpg/05/53/61/34/360_F_553613460_dl1HzA09mwrHw4XoiH6PdJQkCVDYg9YA.jpg);
+background-position: fixed;
+}
+
+
+
+nav {
+    background-color: #222324;
+    padding: 10px 0;
+}
+.contact-info{
+    text-align:center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.banner {
+    background-image: url(https://images.indianexpress.com/2024/05/Capricorn-1.jpg?w=389);
+    background-size: cover;
+    background-position: center;
+    color: white;
+    text-align: center;
+    padding: 150px 20px;
+}
+
+.banner-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f5f5f5;
+}
+
+.main-content .content-container {
+    width: 60%;
+}
+
+.main-content .content-container h3 {
+    color: #b71c1c;
+}
+
+.main-content .content-container p {
+    text-align: justify;
+}
+
+.main-content .content-container button {
+    background-color: #b71c1c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.main-content .image-container {
+    width: 35%;
+}
+
+.main-content .image-container img {
+    width: 100%;
+    height: auto;
+}
+
+.contact-form {
+    background-image: url(https://t3.ftcdn.net/jpg/04/09/96/58/360_F_409965871_KQj6eYxzPEozn0qosU7zkaufyUGdcwan.jpg);
+    color: white;
+    text-align: center;
+    padding: 40px 20px;
+    background-position: fixed;
+}
+
+.contact-form form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact-form button {
+    background-color: #b71c1c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.horoscopes {
+    background-color: #f5f5f5;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.horoscopes .horoscope-icons {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.horoscopes .icon {
+    background-color: #fff;
+    border: 2px solid #b71c1c;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #b71c1c;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.latest-news {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-image:url(https://t3.ftcdn.net/jpg/04/09/96/58/360_F_409965871_KQj6eYxzPEozn0qosU7zkaufyUGdcwan.jpg);
+}
+
+.latest-news .news-item {
+    width: 30%;
+    text-align: center;
+    background-color: white;
+}
+
+.latest-news .news-item button {
+    background-color: #b71c1c;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.latest-videos {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #f5f5f5;
+}
+
+.latest-videos .video-container {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.latest-videos .video-container iframe {
+    width: 30%;
+    height: 200px;
+}
+
+.latest-videos button {
+    background-color: rgb(177, 22, 22);
+    color: white;
+    border: none;
+    padding: 15px 20px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 10px; 
+    width: 300px;
+}
+
+footer {
+    background-color: #212121;
+    color: white;
+    padding: 20px;
+}
+
+footer .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+footer .footer-content div {
+    width: 30%;
+    margin: 10px 0;
+}
+
+footer .footer-content h4 {
+    border-bottom: 1px solid #fff;
+    padding-bottom: 10px;
+}
+
+footer .footer-content ul {
+    list-style: none;
+    padding: 0;
+}
+
+footer .footer-content ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.search1 input[type="email"]
+{
+    border-radius: 15px;
+    padding: 5px;
+    width: 200%;
+}
+button[type="submit"]{
+    border-radius: 15px;
+    background-color: #a87129;
+    width: 50%;
+    padding: 3px;
+}
+.footer-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #ffffff;
+    padding-top: -100px;
+    background-color:#a87129;;
+    color: #ffffff;
+    text-decoration: none;
+    width: 50%;
+    margin-left: 380px;
+}
+
+.footer-bottom p {
+    margin: 0;
+   
+}
+.social-icons {
+    display: flex;
+}
+.p{
+    color: white;
+    margin: 3px;
+    padding: -70px;
+    text-decoration: none;
+    font-size: 20px;
+  font-size: 15px;
+
+}
+
+.social-icons a {
+    color: white;
+    margin: 0 5px;
+    padding: -70px;
+    text-decoration: none;
+    font-size: 20px;
+  font-size: 10px;
+  text-align: right;
+}
+.social-icons a:hover {
+    color: #ff9900;
+}
