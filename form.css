@@ -1,0 +1,124 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(image1.jpg);
+    background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+    height: 100%;
+    margin: 0;
+    background-color: #f0f0f0;
+  }
+  .form-container {
+    width: 600px; /* Adjust width as needed */
+    background-position: center;
+    background-color: transparent;
+    padding-left: 30px;
+    padding-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 50px 0px 50px 0px;
+    border: 2px solid;
+  }
+  input[type="text"], select, textarea {
+    width: calc(97.9% - 22px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 2px solid;
+    outline-color:blue ;
+  }
+  
+  input[type="email"] {
+    width: calc(98% - 22px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 2px solid;
+    outline-color:blue ;}
+  
+  input[type="tel"] {
+    width: calc(98% - 22px);
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    border: 2px solid;
+    outline-color:blue ;
+  }
+  
+  input[type="submit"], input[type="reset"] {
+    background-color: #4CAF50;
+    color: rgb(7, 4, 4);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 2px solid;
+  }
+  input[type="submit"]:hover, input[type="reset"]:hover {
+    background-color: #45a049;
+  }
+  .error {
+    color: red;
+  }
+  /* Focused input field border color */
+  input[type="text"]:focus, select:focus, textarea:focus {
+    border: 2px solid blue;
+  }
+  
+  
+  
+  .stName {
+    display: inline-block;
+    width: 32.5%;
+  }
+  
+  .stName label {
+  
+    font-size: 14px;
+    font-weight: 100;
+  
+  }
+  
+  
+  
+  .inline-box {
+    display: inline-block;
+    width: 49%;
+    
+  }
+  
+  
+  label {
+    display: block;
+    width: 100%; /* Ensure labels take full width */
+    text-align: left;
+    margin-bottom: 5px; /* Adjust margin between labels */
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: 400;
+  }
+  
+  .labelsmall {
+    font-size: 14px;
+    font-weight: 100;
+    margin-top: 0px !important;
+    margin-bottom: 10px;
+  }
+  
+  .para {
+    margin-top: -15px;
+  }
+  
+  input[type="reset"] {
+    float: right;
+    margin-right: 35px;
+  }
